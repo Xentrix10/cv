@@ -35,6 +35,8 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hf.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 
 
@@ -55,22 +57,22 @@ font-family: 'Sacramento', cursive; -->
   <body>
 
   <!-- NavBar -->
-  
-    <header class="h-nav bg-transparent text-white">
-      <nav class=" navbar navbar-expand top-nav">
-        <ul class="navbar-nav"><!-- p-4  -->
-          <li class="nav-item "> <!-- px5  -->
-            <a class="nav-link l" aria-label="Home" href="index.html" >Home</a>
-          </li>
-          <li class="nav-item "> <!-- px5  -->
-            <a class="nav-link l" aria-label="About" href="about.html">About</a>
-          </li>
-          <li class="nav-item "><!-- px5  -->
-            <a class="nav-link l" aria-label="Connect" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
+
+<div class="d-flex h-100 text-center text-bg-dark">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0">Moulishwaran</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link fw-bold py-1 px-0" href="about.html">About</a>
+          <a class="nav-link fw-bold py-1 px-0 "  href="contact.html">Contact</a>
+        </nav>
+      </div>
     </header>
+    </div>
+</div>
+<!-- Navbar End -->
 
     <section class="intro">
       <div class="intro-overlay">
@@ -81,10 +83,10 @@ font-family: 'Sacramento', cursive; -->
               <div class="intro-text">
                 <h4 class="int1">Hello,</h4>
                 <h1 class="int2">I'm Moulishwaran Balaji.</h1>
-                <h2 class="int3">A Computer Science Student.</h2>
+                <h4 class="int3">A Computer Science Student.</h4>
               </div>
-              <div class="social container   ">
-                <a class="btn btn-dark m-3" href="https://twitter.com/MoulishwaranB"><i class="fab fa-twitter"></i></a>
+              <div class="social container">
+                <a class="btn btn-dark m-4" href="https://twitter.com/MoulishwaranB"><i class="fab fa-twitter"></i></a>
                 <a class="btn btn-dark m-3" href="https://www.linkedin.com/in/moulishwaran-balaji-764bb7214/"><i class="fab fa-linkedin-in"></i></a>
                 <a class="btn btn-dark m-3" href="https://www.instagram.com/moulishwaran_b/"><i class="fab fa-instagram"></i></a>
               </div>
@@ -99,6 +101,22 @@ font-family: 'Sacramento', cursive; -->
 
 
     </section>
+
+    <!-- Footer -->
+      <footer>
+   <div class="footer_container">
+     <div class="logo"> <p>Moulishwaran Balaji</p></div>
+       <div class="social_media">
+         <a href="#"><i class=" l fab fa-facebook-f"></i></a>
+         <a href="#"><i class=" l fab fa-twitter"></i></a>
+         <a href="#"><i class=" l fab fa-instagram"></i></a>
+         <a href="#"><i class=" l fab fa-youtube"></i></a>
+         <a href="#"><i class=" l fab fa-linkedin-in"></i></a>
+       </div>
+       <p>moulish©2022 All Rights Reserved.</p>
+     </div>
+ </footer>
+ <!-- Footer end -->
 
 
 

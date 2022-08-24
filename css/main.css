@@ -8,54 +8,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-/* Navbar */
 
-/* header{
-  position: fixed;
-  width: 100%;
-  min-height: 66px;
-  z-index: 600;
-}
-
-.top-nav{
-  width: 100%;
-  font-size: 25px;
-  font-weight: bolder;
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-  color: transparent;
-}
-
-.nav-list{
-    -ms-flex-align: right;
-    align-items: center;
-    align-items: flex-start;
-    box-sizing: border-box;
-    margin: 0 auto;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    max-width: 50%;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.l:hover{
-  transform: translateY(-5px);
-}
- */
-
-
-/* Navbar End */
- /* .main{
-  margin-top: 100px;
-  padding-top: 30px;
-
-} */
 
 .intro{
   -moz-background-size: cover;
@@ -135,7 +88,7 @@ font-family: 'Playfair Display', serif; -->*/
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
-.social-icons{
+.social{
   align-items: flex-end;
 	display: block;
 	font-size: 3.3rem;
@@ -146,7 +99,7 @@ font-family: 'Playfair Display', serif; -->*/
 	top: 90%;
 	width: 100%;
 }
-.social-icons .btn {
+.social .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -156,25 +109,85 @@ font-family: 'Playfair Display', serif; -->*/
   border-radius: 100rem;
 }
 
-@media (min-width: 992px) {
-  .social-icons {
-    position: absolute;
-    height: auto;
-    top: 0;
-    right: 2.5rem;
-    width: auto;
-  }
-}
+
 
 .social{
   align-items: center!important;
 	display: block;
-	font-size: 3.3rem;
+	font-size: 5.3rem;
 	margin: 0;
 	padding: 0;
 	position: relative;
 	width: 100%;
 }
+
+/* Responsive INTRO */
+/**
+ * responsive:
+ * Intro
+ * ---------------------------------------------------------------
+ */
+@media only screen and (max-width:1024px) {
+	.intro-text h1 {
+		font-size: 7.6rem;
+	}
+	.social {
+		font-size: 3rem;
+	}
+	.social li {
+		margin: 0 15px;
+	}
+}
+@media only screen and (max-width:768px) {
+	.intro {
+		min-height: 740px;
+	}
+	.intro-text h1 {
+		font-size: 5.2rem;
+	}
+	.intro-text h4 {
+		font-size: 1.8rem;
+	}
+	.intro-text .intro-position {
+		font-size: 1.3rem;
+	}
+	.social {
+		font-size: 2.5rem;
+	}
+	.social li {
+		margin: 0 10px;
+	}
+}
+@media only screen and (max-width:600px) {
+	#intro {
+		min-height: 600px;
+	}
+	.intro-text h1 {
+		font-size: 3.6rem;
+		margin-bottom: .6rem;
+    white-space: normal;
+	}
+	.intro-text h4 {
+		font-size: 1.5rem;
+		margin-bottom: .3rem;
+		letter-spacing: .2rem;
+	}
+	.intro-text .intro-position {
+		font-size: 1.2rem;
+	}
+	.intro-text .intro-position span {
+		padding: 0 .6rem;
+	}
+	.intro-text .intro-position span::before, .intro-text .intro-position span::after {
+		display: none !important;
+	}
+	.social {
+		font-size: 2.4rem;
+	}
+}
+
+
+/* Responsive intro end */
 
 .chat-box{
   margin-top: 30px;
