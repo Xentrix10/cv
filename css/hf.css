@@ -1,3 +1,7 @@
+.main{
+  background: #171717;
+}
+
 /* NAVBAR */
 
 /* Custom default button */
@@ -90,47 +94,70 @@
 
 /* Footer */
 
-footer{
-  background: #faf5f5;
-  padding: 0.5vw 0;
-}
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-.footer_container{
-  max-width: 100%;
-  margin: auto;
-  padding: 0 1vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-}
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
 
-.logo{
-  width: 25%;
-  font-size: 2vw;
-  font-weight: bold;
-}
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
 
-.social_media{
-  margin: 1vw 5vw;
-}
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
 
-.social_media a{
-  color: #000;
-  font-size: 2vw;
-  text-decoration: none;
-  transition: .6s;
-}
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
 
-.social_media a:hover{
-  color: red;
-}
-footer h1{
-  font-size: 5vw;
-  color: #fff;
-  font-weight: bold;
-}
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
 
-.l{
-  padding-right: 2vw;
-}
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .ic{
+        font-size: 25px;
+        color: white;
+      }
+
+      .br{
+        font-weight: bolder;
+        color: white!important;
+
+        font-family: 'Montserrat', sans-serif;
+      }
+
+
+
+
+
+/* footer end */

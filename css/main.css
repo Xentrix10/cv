@@ -88,7 +88,9 @@ font-family: 'Playfair Display', serif; -->*/
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
-.social{
+   /* Social Buttons BOX */
+
+/* .social{
   align-items: flex-end;
 	display: block;
 	font-size: 3.3rem;
@@ -98,16 +100,19 @@ font-family: 'Playfair Display', serif; -->*/
 	position: absolute;
 	top: 90%;
 	width: 100%;
-}
+} */
 .social .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0;
-  height: 4rem;
-  width: 4rem;
-  border-radius: 100rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+
 }
+
 
 
 
@@ -119,6 +124,7 @@ font-family: 'Playfair Display', serif; -->*/
 	padding: 0;
 	position: relative;
 	width: 100%;
+  padding-top: 2rem;
 }
 
 /* Responsive INTRO */
@@ -129,7 +135,8 @@ font-family: 'Playfair Display', serif; -->*/
  */
 @media only screen and (max-width:1024px) {
 	.intro-text h1 {
-		font-size: 7.6rem;
+		font-size: 6rem;
+    white-space: normal;
 	}
 	.social {
 		font-size: 3rem;
@@ -148,7 +155,7 @@ font-family: 'Playfair Display', serif; -->*/
 	.intro-text h4 {
 		font-size: 1.8rem;
 	}
-	.intro-text .intro-position {
+	.intro-text .int3 {
 		font-size: 1.3rem;
 	}
 	.social {
@@ -159,7 +166,7 @@ font-family: 'Playfair Display', serif; -->*/
 	}
 }
 @media only screen and (max-width:600px) {
-	#intro {
+	.intro {
 		min-height: 600px;
 	}
 	.intro-text h1 {
@@ -172,47 +179,45 @@ font-family: 'Playfair Display', serif; -->*/
 		margin-bottom: .3rem;
 		letter-spacing: .2rem;
 	}
-	.intro-text .intro-position {
+	.intro-text .int3 {
 		font-size: 1.2rem;
 	}
-	.intro-text .intro-position span {
+	.intro-text .int3 span {
 		padding: 0 .6rem;
 	}
-	.intro-text .intro-position span::before, .intro-text .intro-position span::after {
+	.intro-text .int3 span::before, .intro-text .int3 span::after {
 		display: none !important;
 	}
 	.social {
 		font-size: 2.4rem;
 	}
+
+  .social .btn {
+		font-size: 1.4rem;
+	}
+}
+
+@media only screen and (max-width:400px) {
+
+  .intro-text h1 {
+		font-size: 2.6rem;
+		margin-bottom: .6rem;
+    white-space: normal;
+	}
+
+  .social{
+    font-size: 3rem;
+  }
+
+  .social .btn {
+		font-size: 1.4rem;
+    height: 3rem;
+    width: 4rem;
+	}
+
+
+
 }
 
 
 /* Responsive intro end */
-
-.chat-box{
-  margin-top: 30px;
-    /* background-color: #FFFFF0; */
-  padding:200px 0 200px 0;
-}
-
-.chat1{
-  font-size: 50px;
-  font-weight: bolder;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  color: black;
-}
-
-.chat2{
-   text-align: center;
-}
-
-.chat3{
-   text-align: center;
-   text-decoration: underline;
-}
-
-.chat3:hover{
-   transform: translateY(-10px);
-   font-weight: bold;
-}
